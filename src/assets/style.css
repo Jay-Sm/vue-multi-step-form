@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html{
+    @apply h-full
+  }
+
+  body{
+    @apply h-full m-0
+  }
+
+  #app{
+    @apply h-full bg-neutralMagnolia flex justify-center items-center
+  }
+}
